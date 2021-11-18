@@ -1,0 +1,36 @@
+.training-program-container {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 300px;
+  }
+  .training-program-container > h1 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-size: 37px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .training-program-container p {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
+  .training-program-container button {
+    padding: 5px 25px;
+    border-radius: 30px;
+    background-color: #1f98f4;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font: bold 10pt Arial, Helvetica, sans-serif;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .training-program-container {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 30px;
+    }
+    .training-program-container h1{
+      font-size: 25px;
+    }
+  }
