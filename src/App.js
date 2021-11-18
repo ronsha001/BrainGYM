@@ -21,7 +21,7 @@ import Dedicate from './components/Dedicate';
 
         <Cards></Cards>
 
-       <Dedicate></Dedicate>
+        <Dedicate></Dedicate>
         
       </div>
       );

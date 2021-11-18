@@ -32,7 +32,13 @@
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+@media only screen and (max-width: 1024px) { 
+    .dedicated-container {
+        
+        height: 600px;
+        
+    }
+}
 @media only screen and (max-width: 1024px) { 
     .dedicated-container {
         
@@ -43,7 +49,29 @@
 @media only screen and (max-width: 768px) { 
     .dedicated-container {
         
-        height: 350px;
+        height: 370px;
+        
+    }
+    .text-container {
+        margin-top: 0px;
+        
+        margin-left: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .text-container h1{
+        font-size: 30px;
+    }
+    .text-container p{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 350px) { 
+    .dedicated-container {
+        
+        height: 470px;
         
     }
     .text-container {
