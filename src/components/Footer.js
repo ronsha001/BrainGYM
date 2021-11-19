@@ -37,7 +37,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to="/">Contact</Link>
             <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
+            <Link to="/">Recommend</Link>
             <Link to="/">Sponsorships</Link>
           </div>
         </div>
@@ -45,9 +45,9 @@ function Footer() {
           <div className="footer-link-items">
             <h2>Videos</h2>
             <Link to="/">Submit Videos</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <Link to="/">Recommendations</Link>
+            <Link to="/">Reviews</Link>
+            <Link to="/">Games</Link>
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
