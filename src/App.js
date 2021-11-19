@@ -1,29 +1,20 @@
 import React, { Component } from 'react';
-import "./App.css";
-import Navbar from './components/Nav';
-import TopSection from './components/topSection';
-import TrainProgram from './components/TrainProgram';
-import Cards from './components/Cards';
-import Dedicate from './components/Dedicate';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/pages/Home.js';
 
 
   class App extends Component {
     
     render(){
       return (
-      <div className="App">
-      
-        <Navbar></Navbar>
-
-        <TopSection></TopSection> 
-
-        <TrainProgram></TrainProgram>
-
-        <Cards></Cards>
-
-        <Dedicate></Dedicate>
+      <>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+          </Routes>
+        </Router>
         
-      </div>
+      </>
       );
     }
   }

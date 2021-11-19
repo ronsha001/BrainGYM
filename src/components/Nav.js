@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import './Nav.css';
-import logo from '../images/brain.png';
 class Navbar extends React.Component {
 
   render() {
@@ -31,8 +30,7 @@ class Navbar extends React.Component {
         <link rel="stylesheet" href="styles/Nav.css" />
         <nav>
           <div className="logo">
-              <a href="index.html">
-                {/* <img class="myLogo" src="Project/images/LOGO.png" alt="logo"> */}
+              <a href="#">
                 <h1 className="h1-logo">BrainGYM <i className="fas fa-brain"></i></h1>
               </a> 
             

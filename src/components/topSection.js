@@ -1,6 +1,5 @@
 import React from "react";
 import "./topSection.css";
-import Category from "./category";
 
 import Video from "../videos/Brain.mp4";
 function TopSection() {
