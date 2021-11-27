@@ -1,0 +1,25 @@
+
+.breakout-game-content {
+    position: absolute;
+    margin-top: 80px; 
+    display: flex;
+    justify-content: center;
+    /* width: 100vw; */
+    text-align: center;
+}
+
+
+.breakout-canvas {
+
+    background-color: rgb(1, 20, 73);
+
+}
+
+/* @media screen and (max-width: 768px) {
+    .breakout-canvas {
+        
+    
+        width: 100%;    
+        
+    }
+} */

@@ -3,6 +3,7 @@ import CardItem from './CardItem';
 import './Cards.css';
 import memory from '../images/Memory.jpg';
 import thinking from '../images/Thinking.jpg';
+import breakout from '../images/break-out-game.png';
 function Cards() {
     return (
         <div className="cards">
@@ -15,13 +16,19 @@ function Cards() {
                             src={memory}
                             text="Expand and Preserve your memory abilities with our special exercises which built and designed specifically to strengthening your memory"
                             label='Memory Exercises'
-                            //path='/services'
+                            path='/memory'
                         />
                         <CardItem 
                             src={thinking}
                             text="Improve your brain concentration with challenging and pleasant exercises"
                             label='Thinking Exercises'
-                            //path='/services'
+                            path='/'
+                        />
+                        <CardItem
+                            src={breakout}
+                            text="Break-Out Game"
+                            label="Example for prototype"
+                            path='/breakout'
                         />
                     </ul>
                 </div>
