@@ -7,9 +7,13 @@ export default function MemoryExercise() {
     const canvasRef = useRef(null);
 
     useEffect( () => {
-        const canvas = canvasRef.current;
-        const ctx = canvas.getContext('2d');
-        
+        const render = () => {
+            const canvas = canvasRef.current;
+            const ctx = window.history.back ? null : canvas.getContext('2d');
+            console.log("memory");
+            requestAnimationFrame(render);
+        }
+        render();
     }, [])
 
     return (
